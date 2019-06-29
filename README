@@ -1,0 +1,17 @@
+Compile :
+
+    make
+
+Clean :
+
+    make clean
+
+With processes :
+
+    g++ main_with_process.cpp -o with_process.out
+
+With threads :
+
+    g++ main_with_thread.cpp -pthread -o with_thread.out
+
+Don't use -pthread flag
