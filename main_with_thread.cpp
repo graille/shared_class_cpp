@@ -20,9 +20,9 @@ int main(int argc, char **argv)
     thread thread_3(task_3, my_user);
 
     thread_0.join();
-    thread_0.join();
-    thread_0.join();
-    thread_0.join();
+    thread_1.join();
+    thread_2.join();
+    thread_3.join();
 
     printf("--end of program--\n");
     return 0;
